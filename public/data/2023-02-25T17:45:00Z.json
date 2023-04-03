@@ -1,0 +1,1194 @@
+{
+  "XMLName": {
+    "Space": "",
+    "Local": "product"
+  },
+  "Version": "1.7",
+  "Amoc": {
+    "XMLName": {
+      "Space": "",
+      "Local": "amoc"
+    },
+    "Identifier": "IDN10064",
+    "IssueTimeUtc": "2023-02-25T17:45:00Z",
+    "ValidFromLocal": "2023-02-26T00:00:00+11:00",
+    "ValidToLocal": "2023-03-04T23:59:59+11:00",
+    "NextRoutineIssueTimeUtc": "2023-02-26T05:20:00Z"
+  },
+  "Forecast": {
+    "XMLName": {
+      "Space": "",
+      "Local": "forecast"
+    },
+    "Areas": [
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "New South Wales",
+        "AreaType": "region",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T04:45:33+11:00",
+            "EndTimeLocal": "2023-02-26T04:45:33+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "warning_summary_footer",
+                "Content": "For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "product_footer",
+                "Content": "* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones."
+              }
+            ],
+            "Element": null
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Sydney",
+        "AreaType": "metropolitan",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T00:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Mostly sunny morning. Slight (20%) chance of a shower during this afternoon and evening. The chance of a thunderstorm during this afternoon and evening. Winds north to northeasterly and light increasing to 15 to 25 km/h in the early afternoon."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "fire_danger",
+                "Content": "No Rating"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "uv_alert",
+                "Content": "##"
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-27T00:00:00+11:00",
+            "EndTimeLocal": "2023-02-28T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Medium (60%) chance of showers in the outer west, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening, possibly severe. Winds south to southwesterly 15 to 20 km/h becoming light early in the morning then becoming southeasterly 15 to 25 km/h in the early afternoon."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-28T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-01T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Cloudy. Medium (50%) chance of showers in the outer west, slight (30%) chance elsewhere. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-01T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-02T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm. Light winds becoming south to southwesterly 15 to 20 km/h during the morning then tending south to southeasterly 20 to 30 km/h during the day."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-02T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-03T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Cloudy. Slight (20%) chance of a shower. Winds south to southeasterly 15 to 20 km/h turning easterly during the day."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-03T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-04T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Slight (20%) chance of a shower, most likely later in the day. Light winds becoming northeasterly 15 to 25 km/h during the day."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-04T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-05T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Cloudy. Medium (60%) chance of showers. Light winds becoming southeasterly 20 to 30 km/h during the day."
+              }
+            ],
+            "Element": null
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Sydney",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Mostly sunny."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "30"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-27T00:00:00+11:00",
+            "EndTimeLocal": "2023-02-28T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "21"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "28"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-28T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-01T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "4"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "22"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "27"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-01T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-02T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Possible shower."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "40%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "17"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 1 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "21"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "28"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-02T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-03T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "4"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "20"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "26"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-03T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-04T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "30%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 0.4 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "20"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "28"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-04T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-05T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "60%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 3 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "20"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "27"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Penrith",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "33"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-27T00:00:00+11:00",
+            "EndTimeLocal": "2023-02-28T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two. Possible storm."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "70%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "16"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 3 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "19"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "32"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-28T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-01T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "60%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 2 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "21"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "30"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-01T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-02T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Possible shower."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "40%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "17"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 1 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "19"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "30"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-02T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-03T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "4"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "18"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "27"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-03T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-04T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "18"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "31"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-03-04T00:00:00+11:00",
+            "EndTimeLocal": "2023-03-05T00:00:00+11:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "60%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 2 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "18"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Liverpool",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "33"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Terrey Hills",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Richmond",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "33"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Parramatta",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "32"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Campbelltown",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "32"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Bondi",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2023-02-26T05:00:00+11:00",
+            "EndTimeLocal": "2023-02-27T00:00:00+11:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "27"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

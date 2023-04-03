@@ -1,0 +1,1210 @@
+{
+  "XMLName": {
+    "Space": "",
+    "Local": "product"
+  },
+  "Version": "1.7",
+  "Amoc": {
+    "XMLName": {
+      "Space": "",
+      "Local": "amoc"
+    },
+    "Identifier": "IDN10064",
+    "IssueTimeUtc": "2022-09-10T23:30:04Z",
+    "ValidFromLocal": "2022-09-11T00:00:00+10:00",
+    "ValidToLocal": "2022-09-17T23:59:59+10:00",
+    "NextRoutineIssueTimeUtc": "2022-09-11T06:20:00Z"
+  },
+  "Forecast": {
+    "XMLName": {
+      "Space": "",
+      "Local": "forecast"
+    },
+    "Areas": [
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "New South Wales",
+        "AreaType": "region",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:30:04+10:00",
+            "EndTimeLocal": "2022-09-11T09:30:04+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "warning_summary_footer",
+                "Content": "For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "product_footer",
+                "Content": "* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones."
+              }
+            ],
+            "Element": null
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Sydney",
+        "AreaType": "metropolitan",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Sunny. Light winds."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "fire_danger",
+                "Content": "No Rating"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "uv_alert",
+                "Content": "Sun protection 9:20am to 2:20pm, UV Index predicted to reach 5 [Moderate]"
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-12T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-13T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Slight (20%) chance of a shower along the coastal fringe at night. Winds westerly 15 to 20 km/h turning southwesterly in the early afternoon."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-13T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-14T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Cloudy. High (70%) chance of showers along the coastal fringe, medium (40%) chance elsewhere. Showers most likely in the morning. Light winds becoming southerly 15 to 25 km/h during the morning then becoming light during the evening."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-14T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-15T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Slight (30%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-15T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-16T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. High (70%) chance of showers, most likely later in the day. Light winds becoming northerly 15 to 25 km/h during the morning."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-16T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-17T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. High (70%) chance of showers, most likely during the morning. Winds northerly 15 to 25 km/h turning west to northwesterly 25 to 35 km/h during the morning."
+              }
+            ],
+            "Element": null
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-17T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-18T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "forecast",
+                "Content": "Partly cloudy. Slight (30%) chance of a shower. Winds westerly 20 to 30 km/h."
+              }
+            ],
+            "Element": null
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Sydney",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Sunny."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "5%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "1"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "21"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-12T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-13T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "9"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "21"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-13T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-14T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "70%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "1 to 3 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "10"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "16"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-14T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-15T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Possible shower."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "40%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "17"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 1 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "10"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "18"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-15T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-16T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "70%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "2 to 8 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "20"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-16T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-17T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Showers easing."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "80%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "2 to 6 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "13"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "22"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-17T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-18T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "30%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 0.4 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Penrith",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Sunny."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "0%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "1"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "24"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-12T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-13T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "10%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "6"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "22"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-13T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-14T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "30%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "4"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 0.2 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "7"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "18"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-14T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-15T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Partly cloudy."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "20%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "7"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "20"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-15T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-16T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "70%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "3 to 10 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "9"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "22"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-16T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-17T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Shower or two."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "70%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "11"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "1 to 6 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "12"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "24"
+              }
+            ]
+          },
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-17T00:00:00+10:00",
+            "EndTimeLocal": "2022-09-18T00:00:00+10:00",
+            "Text": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "precis",
+                "Content": "Mostly sunny."
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "text"
+                },
+                "Type": "probability_of_precipitation",
+                "Content": "30%"
+              }
+            ],
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "forecast_icon_code",
+                "Content": "3"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "precipitation_range",
+                "Content": "0 to 0.4 mm"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_minimum",
+                "Content": "10"
+              },
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Liverpool",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Terrey Hills",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Richmond",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Parramatta",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Campbelltown",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "XMLName": {
+          "Space": "",
+          "Local": "area"
+        },
+        "Description": "Bondi",
+        "AreaType": "location",
+        "Parent": "",
+        "ForecastPeriod": [
+          {
+            "XMLName": {
+              "Space": "",
+              "Local": "forecast-period"
+            },
+            "StartTimeLocal": "2022-09-11T09:20:00+10:00",
+            "EndTimeLocal": "2022-09-12T00:00:00+10:00",
+            "Text": null,
+            "Element": [
+              {
+                "XMLName": {
+                  "Space": "",
+                  "Local": "element"
+                },
+                "Type": "air_temperature_maximum",
+                "Content": "19"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

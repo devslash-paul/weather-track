@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>New South Wales</region>
+            <office>NSWRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDN10064</identifier>
+        <issue-time-utc>2023-03-26T22:45:50Z</issue-time-utc>
+        <issue-time-local tz="EDT">2023-03-27T09:45:50+11:00</issue-time-local>
+        <sent-time>2023-03-26T22:45:50Z</sent-time>
+        <expiry-time>2023-04-05T22:45:50Z</expiry-time>
+        <validity-bgn-time-local tz="EDT">2023-03-27T00:00:00+11:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2023-04-02T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2023-03-27T05:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EDT">2023-03-27T16:20:00+11:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="NSW_FA001" description="New South Wales" type="region">
+            <forecast-period start-time-local="2023-03-27T09:45:50+11:00" end-time-local="2023-03-27T09:45:50+11:00" start-time-utc="2023-03-26T22:45:50Z" end-time-utc="2023-03-26T22:45:50Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME001" description="Sydney" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2023-03-27T00:00:00+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T13:00:00Z" end-time-utc="2023-03-27T13:00:00Z">
+                <text type="forecast">Cloudy. High chance of showers, becoming less likely in the evening. The chance of a thunderstorm in the evening. Light winds.</text>
+                <text type="fire_danger">No Rating</text>
+                <text type="uv_alert">Sun protection 10:00am to 4:00pm, UV Index predicted to reach 7 [High]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2023-03-28T00:00:00+11:00" end-time-local="2023-03-29T00:00:00+11:00" start-time-utc="2023-03-27T13:00:00Z" end-time-utc="2023-03-28T13:00:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the afternoon and early evening. The chance of a thunderstorm. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2023-03-29T00:00:00+11:00" end-time-local="2023-03-30T00:00:00+11:00" start-time-utc="2023-03-28T13:00:00Z" end-time-utc="2023-03-29T13:00:00Z">
+                <text type="forecast">Partly cloudy. High chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the west in the morning and afternoon. Winds north to northwesterly 15 to 20 km/h tending west to northwesterly during the afternoon then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2023-03-30T00:00:00+11:00" end-time-local="2023-03-31T00:00:00+11:00" start-time-utc="2023-03-29T13:00:00Z" end-time-utc="2023-03-30T13:00:00Z">
+                <text type="forecast">Mostly sunny. Medium chance of showers. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2023-03-31T00:00:00+11:00" end-time-local="2023-04-01T00:00:00+11:00" start-time-utc="2023-03-30T13:00:00Z" end-time-utc="2023-03-31T13:00:00Z">
+                <text type="forecast">Mostly sunny. Slight chance of a shower. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2023-04-01T00:00:00+11:00" end-time-local="2023-04-02T00:00:00+11:00" start-time-utc="2023-03-31T13:00:00Z" end-time-utc="2023-04-01T13:00:00Z">
+                <text type="forecast">Partly cloudy. Medium chance of showers. Winds west to southwesterly 15 to 20 km/h turning southerly 15 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2023-04-02T00:00:00+11:00" end-time-local="2023-04-03T00:00:00+10:00" start-time-utc="2023-04-01T13:00:00Z" end-time-utc="2023-04-02T14:00:00Z">
+                <text type="forecast">Cloudy. Medium chance of showers. Winds southerly 15 to 20 km/h tending southeasterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT131" description="Sydney" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">2 to 7 mm</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">80%</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2023-03-28T00:00:00+11:00" end-time-local="2023-03-29T00:00:00+11:00" start-time-utc="2023-03-27T13:00:00Z" end-time-utc="2023-03-28T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 5 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">20</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Showers increasing.</text>
+                <text type="probability_of_precipitation">80%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2023-03-29T00:00:00+11:00" end-time-local="2023-03-30T00:00:00+11:00" start-time-utc="2023-03-28T13:00:00Z" end-time-utc="2023-03-29T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 8 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">90%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2023-03-30T00:00:00+11:00" end-time-local="2023-03-31T00:00:00+11:00" start-time-utc="2023-03-29T13:00:00Z" end-time-utc="2023-03-30T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">60%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2023-03-31T00:00:00+11:00" end-time-local="2023-04-01T00:00:00+11:00" start-time-utc="2023-03-30T13:00:00Z" end-time-utc="2023-03-31T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">50%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2023-04-01T00:00:00+11:00" end-time-local="2023-04-02T00:00:00+11:00" start-time-utc="2023-03-31T13:00:00Z" end-time-utc="2023-04-01T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 4 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">16</element>
+                <element type="air_temperature_maximum" units="Celsius">24</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">70%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2023-04-02T00:00:00+11:00" end-time-local="2023-04-03T00:00:00+10:00" start-time-utc="2023-04-01T13:00:00Z" end-time-utc="2023-04-02T14:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 4 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">15</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">60%</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT114" description="Penrith" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="air_temperature_maximum" units="Celsius">29</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">70%</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2023-03-28T00:00:00+11:00" end-time-local="2023-03-29T00:00:00+11:00" start-time-utc="2023-03-27T13:00:00Z" end-time-utc="2023-03-28T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">1 to 7 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">30</element>
+                <text type="precis">Showers increasing.</text>
+                <text type="probability_of_precipitation">90%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2023-03-29T00:00:00+11:00" end-time-local="2023-03-30T00:00:00+11:00" start-time-utc="2023-03-28T13:00:00Z" end-time-utc="2023-03-29T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 6 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">19</element>
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">80%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2023-03-30T00:00:00+11:00" end-time-local="2023-03-31T00:00:00+11:00" start-time-utc="2023-03-29T13:00:00Z" end-time-utc="2023-03-30T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">14</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">20%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2023-03-31T00:00:00+11:00" end-time-local="2023-04-01T00:00:00+11:00" start-time-utc="2023-03-30T13:00:00Z" end-time-utc="2023-03-31T13:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="air_temperature_minimum" units="Celsius">12</element>
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+                <text type="precis">Mostly sunny.</text>
+                <text type="probability_of_precipitation">20%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2023-04-01T00:00:00+11:00" end-time-local="2023-04-02T00:00:00+11:00" start-time-utc="2023-03-31T13:00:00Z" end-time-utc="2023-04-01T13:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">0 to 2 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">25</element>
+                <text type="precis">Shower or two.</text>
+                <text type="probability_of_precipitation">60%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2023-04-02T00:00:00+11:00" end-time-local="2023-04-03T00:00:00+10:00" start-time-utc="2023-04-01T13:00:00Z" end-time-utc="2023-04-02T14:00:00Z">
+                <element type="forecast_icon_code">17</element>
+                <element type="precipitation_range">0 to 1 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">13</element>
+                <element type="air_temperature_maximum" units="Celsius">22</element>
+                <text type="precis">Possible shower.</text>
+                <text type="probability_of_precipitation">40%</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT082" description="Liverpool" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT139" description="Terrey Hills" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT123" description="Richmond" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">28</element>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT111" description="Parramatta" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT026" description="Campbelltown" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">27</element>
+            </forecast-period>
+        </area>
+        <area aac="NSW_PT237" description="Bondi" type="location" parent-aac="NSW_ME001">
+            <forecast-period index="0" start-time-local="2023-03-27T09:44:14+11:00" end-time-local="2023-03-28T00:00:00+11:00" start-time-utc="2023-03-26T22:44:14Z" end-time-utc="2023-03-27T13:00:00Z">
+                <element type="air_temperature_maximum" units="Celsius">26</element>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
